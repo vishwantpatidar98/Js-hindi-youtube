@@ -35,3 +35,29 @@ const myFunction = function(){
 }
 
 console.log(typeof scoreValue);
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "MAMABHANJATRADERS.COM"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne  = {
+    email: "user@google.com"
+    
+}
+
+let userTwo = userOne
+
+userTwo.email = "vishnu@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
